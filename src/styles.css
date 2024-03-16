@@ -1,0 +1,19 @@
+/* styles.css */
+@keyframes heartUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-200%);
+  }
+}
+
+.heart {
+  position: absolute;
+  bottom: 0;
+  width: 200px; /* ajuste o tamanho conforme necessário */
+  animation: heartUp 5s linear infinite; /* ajuste a duração e a animação conforme necessário */
+  animation-delay: calc(
+    var(--index) * 0.9s
+  ); /* adiciona delay de animação usando uma variável --index */
+}
