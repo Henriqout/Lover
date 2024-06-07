@@ -1,8 +1,8 @@
-Esse é um projeto de amor inspirado :
+velentine's day ongoing project for a friend
 
-https://saurabhnemade.github.io/will-you-be-my-valentine
+still in developement
 
-Como iniciar
+how to run
 
 npm install -g pnpm
 pnpm i
